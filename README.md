@@ -14,12 +14,12 @@ Designed and implemented a robust Continuous Integration and Continuous Deployme
 1. **📥 GitHub Integration**
    - Source code is maintained in a GitHub repository.
    - Webhooks trigger Jenkins jobs automatically on every commit.
-   - ![GitHub Webhook Setup](screenshots/githubwebhook.png)
+   - ![GitHub Webhook Setup](githubwebhook.png)
 
 2. **🛠 Jenkins Automation**
    - Jenkins pulls the latest code and orchestrates the pipeline.
    - Freestyle or scripted jobs define build/test/deploy stages.
-   - ![Jenkins Pipeline Job](screenshots/jenkins-job.png)
+   - ![Jenkins Pipeline Job](jenkins.png)
 
 3. **🧪 SonarQube Code Quality Analysis**
    - Jenkins runs SonarQube scanner to analyze code quality.
