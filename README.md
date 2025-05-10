@@ -20,20 +20,23 @@ Designed and implemented a robust Continuous Integration and Continuous Deployme
    - Jenkins pulls the latest code and orchestrates the pipeline.
    - Freestyle or scripted jobs define build/test/deploy stages.
    - ![Jenkins Pipeline Job](jenkins.png)
+   - ![Jenkins Pipeline Job](3.png)
 
 3. **🧪 SonarQube Code Quality Analysis**
    - Jenkins runs SonarQube scanner to analyze code quality.
    - Fails the build if code doesn't meet quality gates.
-   - ![SonarQube Analysis](screenshots/sonarqube-results.png)
+   - ![SonarQube Analysis](4.png)
+   - ![SonarQube Analysis](7.png)
 
 4. **🐳 Docker Containerization**
    - Jenkins builds Docker images from the source.
    - Pushes the image and runs it on a Docker server (EC2).
-   - ![Docker Container Running](screenshots/docker-container.png)
+   - ![Docker Container Running](8.png)
 
 5. **☁️ Deployment on AWS EC2**
    - Separate EC2 instances for Jenkins/SonarQube and Docker.
    - Nginx used to serve the application on the target EC2.
-   - ![AWS EC2 Setup](screenshots/aws-ec2.png)
+   - ![AWS EC2 Setup](10.png)
+   - ![AWS EC2 Setup](9.png)
 
 
